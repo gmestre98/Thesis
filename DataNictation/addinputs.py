@@ -329,10 +329,7 @@ df['IL2L'] = pulse4_8nA
 df['IL2R'] = pulse4_8nA
 df['IL2VL'] = pulse4_8nA
 df['IL2VR'] = pulse4_8nA
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -344,12 +341,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -364,10 +356,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100_per100
 df['IL2R'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VL'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VR'] = pulse4_8nA_50ms_delay100_per100
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -379,10 +368,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -398,10 +384,7 @@ df['IL2L'] = pulse0_to_4_8nA_to_0
 df['IL2R'] = pulse0_to_4_8nA_to_0
 df['IL2VL'] = pulse0_to_4_8nA_to_0
 df['IL2VR'] = pulse0_to_4_8nA_to_0
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -413,11 +396,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -433,10 +412,7 @@ df['IL2L'] = pulse0_to_4_8nA_delay0_per150
 df['IL2R'] = pulse0_to_4_8nA_delay0_per150
 df['IL2VL'] = pulse0_to_4_8nA_delay0_per150
 df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -448,10 +424,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -467,10 +440,7 @@ df['IL2L'] = pulse0_to_4_8nA_delay0_per150
 df['IL2R'] = pulse0_to_4_8nA_to_0_per100
 df['IL2VL'] = pulse0_to_4_8nA_delay0_per150
 df['IL2VR'] = pulse0_to_4_8nA_to_0_per100
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -482,12 +452,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -503,10 +468,7 @@ df['IL2L'] = pulse0_to_4_8nA_delay0_per150
 df['IL2R'] = pulse0_to_4_8nA_to_0_per100
 df['IL2VL'] = pulse0_to_4_8nA_delay0_per150
 df['IL2VR'] = pulse0_to_4_8nA_to_0_per100
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -518,10 +480,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -536,10 +495,7 @@ df['IL2L'] = pulse0_to_4_8nA
 df['IL2R'] = pulse0_to_4_8nA
 df['IL2VL'] = pulse0_to_4_8nA_to_0
 df['IL2VR'] = pulse0_to_4_8nA_to_0
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -551,11 +507,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -571,10 +523,7 @@ df['IL2L'] = pulse0_to_4_8nA_per150
 df['IL2R'] = pulse0_to_4_8nA_per150
 df['IL2VL'] = pulse0_to_4_8nA_to_0_per100
 df['IL2VR'] = pulse0_to_4_8nA_to_0_per100
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -586,10 +535,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -605,10 +551,7 @@ df['IL2L'] = pulse4_8nA
 df['IL2R'] = pulse0_to_4_8nA_to_0
 df['IL2VL'] = pulse4_8nA
 df['IL2VR'] = pulse0_to_4_8nA_to_0
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -620,12 +563,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -641,10 +579,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100_per100
 df['IL2R'] = pulse0_to_4_8nA_to_0_per100
 df['IL2VL'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VR'] = pulse0_to_4_8nA_to_0_per100
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -656,10 +591,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -675,10 +607,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100_per100
 df['IL2R'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VL'] = pulse0_to_4_8nA_to_0_per100
 df['IL2VR'] = pulse0_to_4_8nA
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -690,11 +619,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -710,10 +635,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100_per100
 df['IL2R'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VL'] = pulse0_to_4_8nA_to_0
 df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -725,10 +647,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -744,10 +663,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100
 df['IL2R'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VL'] = pulse0_to_4_8nA_delay0
 df['IL2VR'] = pulse0_to_4_8nA_delay0
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -759,12 +675,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -780,10 +691,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100
 df['IL2R'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VL'] = pulse0_to_4_8nA_delay0_per150
 df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -795,10 +703,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -814,10 +719,7 @@ df['IL2L'] = pulse0_to_4_8nA_delay0_per150
 df['IL2R'] = pulse4_8nA_50ms_delay100
 df['IL2VL'] = pulse4_8_nA_delay0
 df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -829,11 +731,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -849,10 +747,7 @@ df['IL2L'] = pulse0_to_4_8nA_delay0
 df['IL2R'] = pulse4_8nA_50ms_delay100
 df['IL2VL'] = pulse0_to_4_8nA_delay0_per150
 df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -864,10 +759,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -883,10 +775,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100
 df['IL2R'] = pulse0_to_4_8nA_delay0
 df['IL2VL'] = pulse0_to_4_8nA_per150
 df['IL2VR'] = pulse0_to_4_8nA_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -898,12 +787,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -919,10 +803,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100
 df['IL2R'] = pulse4_8nA_30ms_delay100
 df['IL2VL'] = pulse4_8nA_delay0
 df['IL2VR'] = pulse0_to_4_8nA_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -934,10 +815,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -953,10 +831,7 @@ df['IL2L'] = pulse0_to_4_8nA
 df['IL2R'] = pulse4_8nA_200ms_delay100
 df['IL2VL'] = pulse0_to_4_8nA_to_0_per100
 df['IL2VR'] = pulse0_to_4_8nA
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -968,11 +843,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -988,10 +859,7 @@ df['IL2L'] = pulse4_8nA_200ms_delay100
 df['IL2R'] = pulse4_8nA_200ms_delay100
 df['IL2VL'] = pulse_0_to_4_8nA_to_0_per100
 df['IL2VR'] = pulse4_8nA_200ms_delay100
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/train/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/train/" + file, sep = " ", header=False)
@@ -1003,10 +871,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/train/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/train/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/train/" + file, sep = " ", header=False)
 
 
@@ -1022,10 +887,7 @@ df['IL2L'] = pulse0_to_4_8nA
 df['IL2R'] = pulse0_to_4_8nA
 df['IL2VL'] = pulse0_to_4_8nA
 df['IL2VR'] = pulse0_to_4_8nA
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/valid/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/valid/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/valid/" + file, sep = " ", header=False)
@@ -1037,12 +899,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/valid/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/valid/" + file, sep = " ", header=False)
 
 
@@ -1058,10 +915,7 @@ df['IL2L'] = pulse0_to_4_8nA_to_0_per100
 df['IL2R'] = pulse0_to_4_8nA_to_0_per100
 df['IL2VL'] = pulse0_to_4_8nA_to_0_per100
 df['IL2VR'] = pulse0_to_4_8nA_to_0_per100
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/valid/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/valid/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/valid/" + file, sep = " ", header=False)
@@ -1073,12 +927,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/valid/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/valid/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1093,10 +942,7 @@ df['IL2L'] = pulse0_to_4_8nA_to_0_per100
 df['IL2R'] = pulse0_to_4_8nA_delay0_per150
 df['IL2VL'] = pulse0_to_4_8nA_to_0_per100
 df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/valid/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/valid/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/valid/" + file, sep = " ", header=False)
@@ -1108,12 +954,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/valid/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/valid/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1128,10 +969,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100_per100
 df['IL2R'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VL'] = pulse0_to_4_8nA
 df['IL2VR'] = pulse0_to_4_8nA_to_0_per100
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/valid/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/valid/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/valid/" + file, sep = " ", header=False)
@@ -1143,12 +981,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/valid/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/valid/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1163,10 +996,7 @@ df['IL2L'] = pulse0_to_4_8nA_delay0_per150
 df['IL2R'] = pulse4_8nA_50ms_delay100
 df['IL2VL'] = pulse0_to_4_8nA_delay0_per150
 df['IL2VR'] = pulse4_8nA_delay0
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/valid/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/valid/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/valid/" + file, sep = " ", header=False)
@@ -1178,12 +1008,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/valid/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/valid/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1198,10 +1023,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100
 df['IL2R'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VL'] = pulse0_to_4_8nA_to_0_delay0_per100
 df['IL2VR'] = pulse0_to_4_8nA_to_0_delay0_per100
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/valid/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/valid/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/valid/" + file, sep = " ", header=False)
@@ -1213,12 +1035,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/valid/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/valid/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1233,10 +1050,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100
 df['IL2R'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VL'] = pulse0_to_4_8nA_to_0
 df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/valid/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/valid/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/valid/" + file, sep = " ", header=False)
@@ -1248,12 +1062,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/valid/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/valid/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1268,10 +1077,7 @@ df['IL2L'] = pulse0_to_4_8nA_delay0
 df['IL2R'] = pulse4_8nA_50ms_delay100
 df['IL2VL'] = pulse0_to_4_8nA_per150
 df['IL2VR'] = pulse0_to_4_8nA_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/valid/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/valid/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/valid/" + file, sep = " ", header=False)
@@ -1283,12 +1089,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/valid/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/valid/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1303,10 +1104,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100
 df['IL2R'] = pulse4_8nA_30ms_delay100
 df['IL2VL'] = pulse0_to_4_8nA_per150
 df['IL2VR'] = pulse4_8nA_delay0
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/valid/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/valid/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/valid/" + file, sep = " ", header=False)
@@ -1318,12 +1116,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/valid/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/valid/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1338,10 +1131,7 @@ df['IL2L'] = pulse0_to_4_8nA
 df['IL2R'] = pulse4_8nA_200ms_delay100
 df['IL2VL'] = pulse0_to_4_8nA
 df['IL2VR'] = pulse0_to_4_8nA
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/valid/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/valid/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/valid/" + file, sep = " ", header=False)
@@ -1353,12 +1143,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/valid/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/valid/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/valid/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/valid/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1373,10 +1158,7 @@ df['IL2L'] = pulse0_to_4_8nA_delay50
 df['IL2R'] = pulse0_to_4_8nA_delay50
 df['IL2VL'] = pulse0_to_4_8nA_delay50
 df['IL2VR'] = pulse0_to_4_8nA_delay50
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/test/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/test/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/test/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/test/" + file, sep = " ", header=False)
@@ -1388,12 +1170,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/test/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/test/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/test/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/test/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1408,10 +1185,7 @@ df['IL2L'] = pulse0_to_4_8nA_to_0_delay50
 df['IL2R'] = pulse0_to_4_8nA_to_0_delay50
 df['IL2VL'] = pulse0_to_4_8nA_to_0_delay50
 df['IL2VR'] = pulse0_to_4_8nA_to_0_delay50
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/test/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/test/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/test/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/test/" + file, sep = " ", header=False)
@@ -1423,12 +1197,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/test/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/test/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/test/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/test/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1443,10 +1212,7 @@ df['IL2L'] = pulse0_to_4_8nA_to_0_per100
 df['IL2R'] = pulse0_to_4_8nA_delay0_per150
 df['IL2VL'] = pulse0_to_4_8nA_to_0_per100
 df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/test/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/test/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/test/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/test/" + file, sep = " ", header=False)
@@ -1458,12 +1224,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/test/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/test/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/test/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/test/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1478,10 +1239,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100_per100
 df['IL2R'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VL'] = pulse0_to_4_8nA_delay0_per150
 df['IL2VR'] = pulse0_to_4_8nA_to_0
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/test/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/test/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/test/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/test/" + file, sep = " ", header=False)
@@ -1493,12 +1251,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/test/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/test/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/test/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/test/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1513,10 +1266,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100
 df['IL2R'] = pulse0_to_4_8nA_delay0
 df['IL2VL'] = pulse0_to_4_8nA_delay0_per150
 df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/test/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/test/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/test/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/test/" + file, sep = " ", header=False)
@@ -1528,12 +1278,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/test/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/test/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/test/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/test/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1548,10 +1293,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100
 df['IL2R'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VL'] = pulse0_to_4_8nA_to_0_delay0
 df['IL2VR'] = pulse0_to_4_8nA_to_0_delay0
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/test/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/test/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/test/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/test/" + file, sep = " ", header=False)
@@ -1563,12 +1305,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/test/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/test/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/test/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/test/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1583,10 +1320,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100
 df['IL2R'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VL'] = pulse0_to_4_8nA_to_0
 df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/test/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/test/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/test/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/test/" + file, sep = " ", header=False)
@@ -1598,12 +1332,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/test/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/test/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/test/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/test/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1618,10 +1347,7 @@ df['IL2L'] = pulse4_8nA_50ms_delay100
 df['IL2R'] = pulse4_8nA_50ms_delay100_per100
 df['IL2VL'] = pulse0_to_4_8nA_per150
 df['IL2VR'] = pulse0_to_4_8nA_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/test/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/test/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/test/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/test/" + file, sep = " ", header=False)
@@ -1633,12 +1359,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/test/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/test/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/test/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/test/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1653,10 +1374,7 @@ df['IL2L'] = pulse0_to_4_8nA
 df['IL2R'] = pulse0_to_4_8nA_to_0_per100
 df['IL2VL'] = pulse0_to_4_8nA_to_0_per100
 df['IL2VR'] = pulse0_to_4_8nA
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/test/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/test/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/test/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/test/" + file, sep = " ", header=False)
@@ -1668,12 +1386,7 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/test/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/test/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/test/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/test/" + file, sep = " ", header=False)
 
 ########################################################################################################################################################################
@@ -1688,10 +1401,7 @@ df['IL2L'] = pulse4_8nA
 df['IL2R'] = pulse4_8nA_10ms_delay100_per20
 df['IL2VL'] = pulse4_8nA_10ms_delay100_per20
 df['IL2VR'] = pulse4_8nA
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/test/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/test/" + file, sep = " ", header=False)
-# Save Experiment 1
+# Sample Rate
 df[save6].to_csv("../Datasets/Nictation-20-0_05-6/test/" + file, sep = " ", header=False)
 df01 = df.iloc[df.index % 2 == 0]
 df01[save6].to_csv("../Datasets/Nictation-20-0_1-6/test/" + file, sep = " ", header=False)
@@ -1703,555 +1413,6 @@ df5 = df.iloc[df.index % 100 == 0]
 df5[save6].to_csv("../Datasets/Nictation-20-5-6/test/" + file, sep = " ", header=False)
 df10 = df.iloc[df.index % 200 == 0]
 df10[save6].to_csv("../Datasets/Nictation-20-10-6/test/" + file, sep = " ", header=False)
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-5-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-10-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/test/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/test/" + file, sep = " ", header=False)
-# Save Experiment 5
+# Save Experiment 3
 df05.to_csv("../Datasets/Nictation-20-0_5-12/test/" + file, sep = " ", header=False)
 
-# ########################################################################################################################################################################
-# # Sequence 41
-# file = "Sequence41.dat"
-# cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-# save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-# df = pd.read_csv(file, sep = "\s+", names=cols)
-# df['IL2DL'] = pulse0_to_4_8nA_50ms_delay0
-# df['IL2DR'] = pulse0_to_4_8nA_plus50
-# df['IL2L'] = pulse4_8nA
-# df['IL2R'] = pulse4_8nA_10ms_delay100_per20
-# df['IL2VL'] = pulse4_8nA_10ms_delay100_per20
-# df['IL2VR'] = pulse4_8nA
-# # Save Base
-# df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-# df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# # Reduce Timestep
-# df05 = df.iloc[df.index % 10 == 0]
-# # Save Experiment 1
-# df[save6].to_csv("../Datasets/Nictation-25-0_5-6/train/" + file, sep = " ", header=False)
-# df[save6].to_csv("../Datasets/Nictation-45-0_5-6/train/" + file, sep = " ", header=False)
-# # Save Experiment 2
-# # Save Experiment 5
-
-# ########################################################################################################################################################################
-# # Sequence 42
-# file = "Sequence42.dat"
-# cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-# save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-# df = pd.read_csv(file, sep = "\s+", names=cols)
-# df['IL2DL'] = pulse4_8nA
-# df['IL2DR'] = pulse4_8nA_10ms_delay100_per20
-# df['IL2L'] = pulse4_8nA_50ms_delay0
-# df['IL2R'] = pulse0_to_4_8nA_plus50
-# df['IL2VL'] = pulse4_8nA_10ms_delay100_per20
-# df['IL2VR'] = pulse4_8nA
-# # Save Base
-# df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-# df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# # Reduce Timestep
-# df05 = df.iloc[df.index % 10 == 0]
-# # Save Experiment 1
-# df[save6].to_csv("../Datasets/Nictation-25-0_5-6/train/" + file, sep = " ", header=False)
-# df[save6].to_csv("../Datasets/Nictation-45-0_5-6/train/" + file, sep = " ", header=False)
-# # Save Experiment 2
-# # Save Experiment 5
-
-# ########################################################################################################################################################################
-# # Sequence 43
-# file = "Sequence43.dat"
-# cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-# save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-# df = pd.read_csv(file, sep = "\s+", names=cols)
-# df['IL2DL'] = pulse4_8nA
-# df['IL2DR'] = pulse4_8nA_10ms_delay100_per20
-# df['IL2L'] = pulse0_to_4_8nA_50ms_delay0
-# df['IL2R'] = pulse0_to_4_8nA_plus50
-# df['IL2VL'] = pulse4_8nA_10ms_delay100_per20
-# df['IL2VR'] = pulse4_8nA
-# # Save Base
-# df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-# df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# # Reduce Timestep
-# df05 = df.iloc[df.index % 10 == 0]
-# # Save Experiment 1
-# df[save6].to_csv("../Datasets/Nictation-25-0_5-6/train/" + file, sep = " ", header=False)
-# df[save6].to_csv("../Datasets/Nictation-45-0_5-6/train/" + file, sep = " ", header=False)
-# # Save Experiment 2
-# # Save Experiment 5
-
-# ########################################################################################################################################################################
-# # Sequence 44
-# file = "Sequence44.dat"
-# cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-# save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-# df = pd.read_csv(file, sep = "\s+", names=cols)
-# df['IL2DL'] = pulse4_8nA_10ms_delay100_per20
-# df['IL2DR'] = pulse4_8nA
-# df['IL2L'] = pulse4_8nA
-# df['IL2R'] = pulse4_8nA_10ms_delay100_per20
-# df['IL2VL'] = pulse4_8nA_50ms_delay0
-# df['IL2VR'] = pulse4_8nA_50ms_delay0
-# # Save Base
-# df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-# df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# # Reduce Timestep
-# df05 = df.iloc[df.index % 10 == 0]
-# # Save Experiment 1
-# df[save6].to_csv("../Datasets/Nictation-25-0_5-6/train/" + file, sep = " ", header=False)
-# df[save6].to_csv("../Datasets/Nictation-45-0_5-6/train/" + file, sep = " ", header=False)
-# # Save Experiment 2
-# # Save Experiment 5
-
-# ########################################################################################################################################################################
-# # Sequence 45
-# file = "Sequence45.dat"
-# cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-# save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-# df = pd.read_csv(file, sep = "\s+", names=cols)
-# df['IL2DL'] = pulse4_8nA_10ms_delay100_per20
-# df['IL2DR'] = pulse4_8nA
-# df['IL2L'] = pulse4_8nA
-# df['IL2R'] = pulse4_8nA_10ms_delay100_per20
-# df['IL2VL'] = pulse0_to_4_8nA_50ms_delay0
-# df['IL2VR'] = pulse0_to_4_8nA_plus50
-# # Save Base
-# df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-# df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# # Reduce Timestep
-# df05 = df.iloc[df.index % 10 == 0]
-# # Save Experiment 1
-# df[save6].to_csv("../Datasets/Nictation-25-0_5-6/train/" + file, sep = " ", header=False)
-# df[save6].to_csv("../Datasets/Nictation-45-0_5-6/train/" + file, sep = " ", header=False)
-# # Save Experiment 2
-# # Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 46
-file = "Sequence46.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse0_to_4_8nA_to_0
-df['IL2DR'] = pulse4_8nA
-df['IL2L'] = pulse0_to_4_8nA_to_0
-df['IL2R'] = pulse4_8nA
-df['IL2VL'] = pulse0_to_4_8nA_to_0
-df['IL2VR'] = pulse4_8nA
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 47
-file = "Sequence47.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse0_to_4_8nA_to_0_per100
-df['IL2DR'] = pulse4_8nA_50ms_delay100_per100
-df['IL2L'] = pulse0_to_4_8nA_to_0_per100
-df['IL2R'] = pulse4_8nA_50ms_delay100_per100
-df['IL2VL'] = pulse0_to_4_8nA_to_0_per100
-df['IL2VR'] = pulse4_8nA_50ms_delay100_per100
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 48
-file = "Sequence48.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse4_8nA_50ms_delay100_per100
-df['IL2DR'] = pulse0_to_4_8nA_delay0
-df['IL2L'] = pulse4_8nA_50ms_delay100
-df['IL2R'] = pulse4_8nA_50ms_delay100
-df['IL2VL'] = pulse0_to_4_8nA_per150
-df['IL2VR'] = pulse0_to_4_8nA_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 49
-file = "Sequence49.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse4_8nA_50ms_delay100_per100
-df['IL2DR'] = pulse4_8nA_50ms_delay100
-df['IL2L'] = pulse4_8nA_50ms_delay100
-df['IL2R'] = pulse0_to_4_8nA_per150
-df['IL2VL'] = pulse0_to_4_8nA_delay0
-df['IL2VR'] = pulse0_to_4_8nA_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 50
-file = "Sequence50.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse0_to_4_8nA_to_0
-df['IL2DR'] = pulse0_to_4_8nA_delay0_per150
-df['IL2L'] = pulse0_to_4_8nA_delay0
-df['IL2R'] = pulse0_to_4_8nA_delay0
-df['IL2VL'] = pulse4_8nA_50ms_delay100
-df['IL2VR'] = pulse4_8nA_50ms_delay100_per100
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 51
-file = "Sequence51.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse4_8nA_delay0
-df['IL2DR'] = pulse4_8nA_50ms_delay100_per100
-df['IL2L'] = pulse4_8nA_delay0
-df['IL2R'] = pulse4_8nA_50ms_delay100
-df['IL2VL'] = pulse0_to_4_8nA_delay0_per150
-df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 52
-file = "Sequence52.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse4_8nA_50ms_delay100_per100
-df['IL2DR'] = pulse4_8nA_delay0
-df['IL2L'] = pulse4_8nA_50ms_delay100
-df['IL2R'] = pulse4_8nA_delay0
-df['IL2VL'] = pulse0_to_4_8nA_delay0_per150
-df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 53
-file = "Sequence53.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse4_8nA_50ms_delay100_per100
-df['IL2DR'] = pulse0_to_4_8nA_delay0
-df['IL2L'] = pulse0_to_4_8nA_delay0_per150
-df['IL2R'] = pulse4_8nA_50ms_delay100
-df['IL2VL'] = pulse0_to_4_8nA_delay0
-df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 54
-file = "Sequence54.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse0_to_4_8nA_delay0
-df['IL2DR'] = pulse4_8nA_50ms_delay100_per100
-df['IL2L'] = pulse4_8nA_50ms_delay100
-df['IL2R'] = pulse0_to_4_8nA_delay0_per150
-df['IL2VL'] = pulse0_to_4_8nA_delay0_per150
-df['IL2VR'] = pulse0_to_4_8nA_delay0
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 55
-file = "Sequence55.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse0_to_4_8nA
-df['IL2DR'] = pulse0_to_4_8nA_to_0_per100
-df['IL2L'] = pulse4_8nA_200ms_delay100
-df['IL2R'] = pulse0_to_4_8nA
-df['IL2VL'] = pulse0_to_4_8nA_to_0_per100
-df['IL2VR'] = pulse4_8nA_200ms_delay100
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 56
-file = "Sequence56.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse0_to_4_8nA_to_0_per100
-df['IL2DR'] = pulse4_8nA_200ms_delay100
-df['IL2L'] = pulse0_to_4_8nA
-df['IL2R'] = pulse0_to_4_8nA_to_0_per100
-df['IL2VL'] = pulse4_8nA_200ms_delay100
-df['IL2VR'] = pulse0_to_4_8nA
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 57
-file = "Sequence57.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse4_8nA
-df['IL2DR'] = pulse4_8nA
-df['IL2L'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2R'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2VL'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2VR'] = [0.0000] * int(simulationtime/ts + 1)
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 58
-file = "Sequence58.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2DR'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2L'] = pulse4_8nA
-df['IL2R'] = pulse4_8nA
-df['IL2VL'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2VR'] = [0.0000] * int(simulationtime/ts + 1)
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 59
-file = "Sequence59.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2DR'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2L'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2R'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2VL'] = pulse4_8nA
-df['IL2VR'] = pulse4_8nA
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 60
-file = "Sequence60.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse0_to_4_8nA_delay0_per150
-df['IL2DR'] = pulse0_to_4_8nA_delay0_per150
-df['IL2L'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2R'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2VL'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2VR'] = [0.0000] * int(simulationtime/ts + 1)
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 61
-file = "Sequence61.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2DR'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2L'] = pulse0_to_4_8nA_delay0_per150
-df['IL2R'] = pulse0_to_4_8nA_delay0_per150
-df['IL2VL'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2VR'] = [0.0000] * int(simulationtime/ts + 1)
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 62
-file = "Sequence62.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2DR'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2L'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2R'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2VL'] = pulse0_to_4_8nA_delay0_per150
-df['IL2VR'] = pulse0_to_4_8nA_delay0_per150
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 63
-file = "Sequence63.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = pulse0_to_4_8nA_to_0_per100
-df['IL2DR'] = pulse0_to_4_8nA_to_0_per100
-df['IL2L'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2R'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2VL'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2VR'] = [0.0000] * int(simulationtime/ts + 1)
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 64
-file = "Sequence64.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2DR'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2L'] = pulse0_to_4_8nA_to_0_per100
-df['IL2R'] = pulse0_to_4_8nA_to_0_per100
-df['IL2VL'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2VR'] = [0.0000] * int(simulationtime/ts + 1)
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-30-0_5-6/train/" + file, sep = " ", header=False)
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
-
-########################################################################################################################################################################
-# Sequence 65
-file = "Sequence65.dat"
-cols = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'RMHL', 'RMHR', 'SMDDL', 'SMDDR', 'SMDVL', 'SMDVR']
-save6 = ['time', 'RMED', 'RMEL', 'RMER', 'RMEV', 'RMGL', 'RMGR', 'IL2DL', 'IL2DR', 'IL2L', 'IL2R', 'IL2VL', 'IL2VR']
-df = pd.read_csv(file, sep = "\s+", names=cols)
-df['IL2DL'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2DR'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2L'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2R'] = [0.0000] * int(simulationtime/ts + 1)
-df['IL2VL'] = pulse0_to_4_8nA_to_0_per100
-df['IL2VR'] = pulse0_to_4_8nA_to_0_per100
-# Save Base
-df.to_csv("../Datasets/Nictation-45-0_05-12/train/" + file, sep = " ", header=False)
-df[save6].to_csv("../Datasets/Nictation-45-0_05-6/train/" + file, sep = " ", header=False)
-# Reduce Timestep
-df05 = df.iloc[df.index % 10 == 0]
-# Save Experiment 2
-df05[save6].to_csv("../Datasets/Nictation-40-0_5-6/train/" + file, sep = " ", header=False)
-# Save Experiment 5
