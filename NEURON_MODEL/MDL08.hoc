@@ -1,0 +1,166 @@
+// Cell: MDL08
+/*
+{
+  "id" : "MDL08",
+  "sections" : [ {
+    "name" : "Soma",
+    "id" : "Soma",
+    "points3d" : [ "12.577, -186.531, 20.599, 3.245049", "2.794, -259.386, 58.299, 1.4865664" ]
+  } ],
+  "groups" : [ {
+    "name" : "soma_group",
+    "groups" : [ ],
+    "sections" : [ "Soma" ]
+  }, {
+    "name" : "all",
+    "sections" : [ "Soma" ]
+  } ],
+  "specificCapacitance" : [ {
+    "group" : "all",
+    "value" : "1.0"
+  } ],
+  "initMembPotential" : [ {
+    "group" : "all",
+    "value" : "-65.0"
+  } ],
+  "resistivity" : [ {
+    "group" : "all",
+    "value" : "30.000002"
+  } ],
+  "channelDensity" : [ {
+    "id" : "LeakConductance_all",
+    "ionChannel" : "LeakConductance",
+    "ion" : "non_specific",
+    "group" : "all",
+    "condDens" : "2.5E-5",
+    "erev" : "-65.0"
+  } ],
+  "species" : [ ]
+}
+*/
+
+load_file("subiter.hoc")
+
+begintemplate MDL08
+
+public init, topol, basic_shape, subsets, geom, memb
+public x, y, z, position
+
+
+//  Some methods for referencing the cells
+
+public toString, netInfo, set_initial_v, set_initial_ion_properties, synlist
+
+
+// Section: Soma, id: Soma, parent: $s.parent
+create Soma
+public Soma
+
+// Group: {name=soma_group, groups=[], sections=[Soma]}
+objref soma_group
+// Group: {name=all, sections=[Soma]}
+objref all
+
+objref synlist
+
+proc init() {
+    topol()
+    geom_nseg()
+    subsets()
+    subsets_inhomogeneous()
+    biophys()
+    biophys_inhomogeneous()
+    synlist = new List()
+    x = y = z = 0
+
+}
+
+proc set_initial_v() {
+    // Taken from the initMembPotential value
+    forsec all v = -65.0  // units: mV
+}
+
+
+proc set_initial_ion_properties() {
+    // From species
+}
+
+
+proc topol() {
+    basic_shape()
+
+}
+
+
+proc basic_shape() {
+
+    // Section: Soma, id: Soma, parent: $s.parent (entry count 0/100)
+    Soma { pt3dclear() }
+    Soma { pt3dadd( 12.577, -186.531, 20.599, 3.245049 ) }
+    Soma { pt3dadd( 2.794, -259.386, 58.299, 1.4865664 ) }
+
+}
+
+
+proc subsets() { local i
+
+    // Group: {name=soma_group, groups=[], sections=[Soma]}
+    soma_group = new SectionList()
+    Soma soma_group.append()
+
+    // Group: {name=all, sections=[Soma]}
+    all = new SectionList()
+    Soma all.append()
+
+}
+
+
+proc subsets_inhomogeneous() {
+}
+
+proc biophys() {
+
+    // Specific capacitance
+    forsec all cm = 1.0  // units: uF/cm2
+
+    // Specific axial resistance/resistivity
+    forsec all Ra = 30.000002  // units: ohm cm
+
+    // Channel densities
+    forsec all {
+        insert LeakConductance
+        gmax_LeakConductance = 2.5E-5  // units: S cm-2
+        e_LeakConductance = -65.0  // units: mV
+    }
+
+    // Concentration models for species
+
+}
+
+func H() { // Heaviside function
+    if ($1>=0) return 1
+    if ($1==0) return 0.5
+    return 0
+}
+
+proc biophys_inhomogeneous() {
+}
+
+proc geom_nseg() {
+    // All sections not mentioned here have nseg = 1
+}
+
+
+proc position() { local i
+    forsec all {
+        for i = 0, n3d()-1 {
+            pt3dchange(i, $1+x3d(i), $2+y3d(i), $3+z3d(i), diam3d(i))
+        }
+    }
+    x = $1  y = $2  z = $3
+}
+
+
+endtemplate MDL08
+
+

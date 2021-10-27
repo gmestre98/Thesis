@@ -1,0 +1,9 @@
+# Report of running simulation with NEURON -- VERSION 8.0.0-2-g0e9a0517+ HEAD (0e9a0517+) 2021-04-30
+Simulator=NEURON
+SimulatorVersion=NEURON -- VERSION 8.0.0-2-g0e9a0517+ HEAD (0e9a0517+) 2021-04-30
+PythonVersion=3.8.8 (default, Apr 13 2021, 15:08:03) [MSC v.1916 64 bit (AMD64)]
+NeuroMLExportVersion=1.7.0
+StartTime=2021-10-23 00:47:07
+SetupTime=10.846524953842163
+RealSimulationTime=6.182994604110718
+SimulationSaveTime=0.3449983596801758
