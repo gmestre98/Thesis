@@ -23,7 +23,7 @@ More information about the work developed can be found in the documents "Tese.pd
 
 ## Experiments folder
 
-  This section explains the structure of the folders "Experiment1", "Experiment2", "Experiment3", "Experiment4", "Hyperparameters" and "SampleRate"
-  All of this folders contain various subfolders, for which the folder names correspond to the experiment settings with the structure diverging for each experiment.
-  After navigating to the folder of the specific setting you want to check, you may find 10 different folders named "RunX", for each of the 10 different times that setting was run.
-  Inside each of these folders you will find the results obtained.
+  * This section explains the structure of the folders "Experiment1", "Experiment2", "Experiment3", "Experiment4", "Hyperparameters" and "SampleRate"
+  * All of this folders contain various subfolders, for which the folder names correspond to the experiment settings with the structure diverging for each experiment.
+  * After navigating to the folder of the specific setting you want to check, you may find 10 different folders named "RunX", for each of the 10 different times that setting was run.
+  * Inside each of these folders you will find the results obtained.
